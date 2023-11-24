@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSSの読み込み -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Bootstrap Practice</title>
+  </head>
+  <body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, Popper.js, Bootstrap JSの順番に読み込む -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
+<!-- ナビゲーションメニュー -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand text-dark" href="#">メニュー</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ">
+            <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link text-dark" href="#skill">お店のこだわり</a>
+            <a class="nav-link text-dark" href="#course">コース</a>
+            <a class="nav-link text-dark" href="#contact">お問い合わせ</a>
+        </div>
+    </div>
+</nav>
+<!-- スライダー -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="2023素材例/外観.jpg" class="d-block w-100" alt="...">
+        <div class="card-img-overlay">
+          <p class="text-white"> お店の外観</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="2023素材例/内装１.jpg" class="d-block w-100" alt="...">
+        <div class="card-img-overlay">
+          <p class="text-white"> お店の雰囲気</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="2023素材例/生ハム.jpg" class="d-block w-100" alt="...">
+        <div class="card-img-overlay">
+          <p class="text-white"> 生ハムのサラダ</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<div class="container py-4" id="skill">
+  <p>
+    衛生対策は万全です。
+旬の食材を使ったコスパ最高美味しい料理と自分達が美味しいと思ったワインだけをご用意しています。
+  </p>
+  <p>
+    女子会、記念日、友人とお気軽にご来店ください。(※８名様以上の貸切は定休日でもお気軽にお電話でご相談ください。)
+  </p>
+
+<p>『普段使いの気取らない贅沢しませんか？」ワインの専門家はいません。
+自分達が美味しいと思ったワインだけをご用意しております。
+
+幸せを呼ぶ…ワインと国産牛肉とチーズの美味しいお店です。
+
+都田沼駅より徒歩2分とアクセス抜群です。お仕事帰りや大切なパートナー、そしてひとり飲みにも様々なシーンにご利用下さい。
+</p>
+<p>誕生日のサプライズも大歓迎です。ケーキ持ち込み可能です。</p>
+</p>
+    <h2>お店のこだわり</h2>
+    <div class="media">
+        <!-- 1.画像の配置 -->
+        <a class="media-left" href="#">
+            <img class="media-object" src="2023素材例/こだわり１絶品パスタ2.jpg">
+        </a>
+        <!-- 2.画像の説明 -->
+        <div class="media-body">
+            <h4 class="media-heading">こだわり１</h4>
+            <p> 日替わりメニュー...
+                豊富な日替わりメニュー！！</p>
+                <p>
+                    旬の美味しいお野菜、魚、お肉で美味しい料理を提供しております。毎日変わるおすすめメニューも大人気です。ワインと一緒にお楽しみ下さい。
+                </p>
+        </div>
+    </div>
+
+    <div class="media">
+        <!-- 1.画像の配置 -->
+        <a class="media-left" href="#">
+            <img class="media-object" src="2023素材例/こだわり２または４2.jpg">
+        </a>
+        <!-- 2.画像の説明 -->
+        <div class="media-body">
+            <h4 class="media-heading">こだわり２</h4>
+            <p>気軽に立ち寄れる...
+              　気軽に立ち寄れるワイン酒場</p>
+              <p>
+                ワインに合わせたリーズナブルで美味しいアラカルトメニューも豊富です！！オーナーが美味しいと思うワインを取り揃えてます。お気軽にふらっとお立ち寄り下さいね
+            </p>
+        </div>
+      </div>
+
+      <div class="media">
+        <!-- 1.画像の配置 -->
+        <a class="media-left" href="#">
+            <img class="media-object" src="2023素材例/こだわり１2.jpg">
+        </a>
+        <!-- 2.画像の説明 -->
+        <div class="media-body">
+            <h4 class="media-heading">こだわり3</h4>
+            <p>
+              パーティーコース...
+              美味しいパーティーコース</p>
+            <p>
+              お得なコースメニューは2980円から3種類ございます。詳しい詳細は下のコースメニューをご覧ください。
+            </p>
+        </div>
+      </div>
+
+      <div class="media">
+        <!-- 1.画像の配置 -->
+        <a class="media-left" href="#">
+            <img class="media-object" src="2023素材例/ワイン22.jpg">
+        </a>
+        <!-- 2.画像の説明 -->
+        <div class="media-body">
+            <h4 class="media-heading">こだわり４</h4>
+            <p>
+              グラスワイン...
+              リーズナブルな日替わりグラスワイン</p>
+              <p>
+                コスパ最高の美味しいワインを取り揃えております。日替わりグラスワインは580円〜美味しいワインを気軽にお楽しみください。ボトルワインも各種ご用意しております。
+            </p>
+        </div>
+      </div>
+</div>
+
+<!-- カード -->
+<div class="container py-4" id="course">
+    <h2>コース</h2>
+    <p>【コスパ最高のコースメニューも人気】お得なコースメニューは2980円から3種類ございます。飲み放題付きコースも人気です。女子会、お仲間とのご宴会におすすめです。</p>
+    <div class="card-deck">
+        <div class="card">
+          <img src="2023素材例/ワインと人気メニュー.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">カジュアルコース</h5>
+            <p class="card-text">当店一番の人気のコース。お気軽にフレンチ料理を味わえます。</p>
+            <p class="card-text"><small class="text-muted">*飲み放題ではありません。</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="2023素材例/こだわり５ (2).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">スタンダートコース</h5>
+            <p class="card-text">飲み放題でフレンチ料理を味わえます。</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="2023素材例/こだわり３コース料理.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">プレミアムコース</h5>
+            <p class="card-text">お酒と料理がさらに豪華になっています。</p>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- 問合せフォーム -->
+<div class="container py-4" id="contact">
+    <h2>お問い合わせ</h2>
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+          <label>お問い合わせ内容　<span class="label label-danger">必須</span></label>
+          <textarea placeholder="お問い合わせ内容" rows="10" class="form-control" name="main" required></textarea>
+  <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+  <div class="help-block with-errors"></div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+</div>
+
+<!-- フッター -->
+<footer class="footer">
+  <div class="footer-section-top lg-flex md-justify-between">
+    <address class="footer-address">
+      <a class="media-left" href="#">
+        <img class="media-object" src="2023素材例/taitoru1.jpg">
+    </a>
+      <h2>店名　イタリアン　CIT　（シーアイティ）</h2>
+      住所　〒999-999　奈良氏之市都田沼１２３<br />
+      TEL：<a href="tel:" class="footer-address__tel">０００－１２３４－５６７８</a>
+    </address>
+</footer>
